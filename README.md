@@ -1,10 +1,5 @@
-# Sistem Login & Manajemen Data Mahasiswa (Laravel)
-
-Aplikasi berbasis Laravel dengan tiga bagian utama:
-
-1. **Halaman Login** — satu pintu masuk untuk admin & mahasiswa, otomatis diarahkan sesuai peran (role).
-2. **Beranda Mahasiswa** — tampilan bergaya aplikasi mobile (bottom navigation, kartu ringkasan IPK/SKS, jadwal, pengumuman).
-3. **Dashboard Admin** — manajemen data mahasiswa (CRUD) lengkap dengan statistik, pencarian, dan filter status.
+# Sistem Login & Manajemen Data (SIAKAD)
+By Ahmad Riko Dyansyah
 
 ## Struktur Peran (Role)
 
