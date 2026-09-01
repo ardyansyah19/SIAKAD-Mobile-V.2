@@ -37,14 +37,6 @@ php artisan serve
 
 Buka `http://localhost:8000` di browser.
 
-## Akun Demo (hasil seeder)
-
-| Peran     | Email                  | Password      |
-|-----------|-------------------------|----------------|
-| Admin     | admin@kampus.ac.id      | admin123       |
-| Mahasiswa | riko@kampus.ac.id       | mahasiswa123   |
-| Mahasiswa | amelia@kampus.ac.id     | mahasiswa123   |
-
 ## Fitur
 
 **Autentikasi**
