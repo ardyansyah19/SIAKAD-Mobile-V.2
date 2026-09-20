@@ -59,26 +59,6 @@ Buka `http://localhost:8000` di browser.
 - Pencarian (NIM/nama/email) dan filter status
 - Setiap mahasiswa baru otomatis mendapat akun login (`role: mahasiswa`)
 
-## Struktur Folder Penting
-
-```
-app/Http/Controllers/Auth/LoginController.php       -> Login & logout
-app/Http/Controllers/MahasiswaHomeController.php     -> Beranda & profil mahasiswa
-app/Http/Controllers/Admin/DashboardController.php   -> Dashboard admin
-app/Http/Controllers/Admin/MahasiswaController.php   -> CRUD data mahasiswa
-app/Http/Middleware/AdminMiddleware.php              -> Proteksi halaman admin
-app/Http/Middleware/MahasiswaMiddleware.php           -> Proteksi halaman mahasiswa
-app/Models/User.php                                   -> Model akun (role: admin/mahasiswa)
-app/Models/Mahasiswa.php                              -> Model data akademik mahasiswa
-database/migrations/                                  -> Skema tabel users & mahasiswas
-database/seeders/DatabaseSeeder.php                    -> Data awal (admin + 2 mahasiswa)
-resources/views/auth/login.blade.php                   -> Halaman login
-resources/views/mahasiswa/                              -> Beranda & profil mahasiswa (mobile)
-resources/views/admin/                                   -> Dashboard & CRUD mahasiswa
-resources/views/components/layouts/                       -> Layout guest, mobile, admin
-routes/web.php                                             -> Semua rute aplikasi
-```
-
 ## Catatan Penting
 
 - Folder `vendor/` **tidak disertakan** dalam paket ini — jalankan `composer install` untuk mengunduhnya.
